@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-
+# 1 repodan yuklash
 def segment_image_kmeans(image_path, K=4):
     img = cv2.imread(image_path)
     img = cv2.resize(img, (400, 400))
